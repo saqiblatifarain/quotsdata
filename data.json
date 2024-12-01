@@ -1,52 +1,774 @@
-[
-  {
-    "id": 1,
-    "quote": "The only way to do great work is to love what you do.",
-    "author": "Steve Jobs"
-  },
-  {
-    "id": 2,
-    "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
-    "author": "Martin Luther King Jr."
-  },
-  {
-    "id": 3,
-    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-    "author": "Winston Churchill"
-  },
-  {
-    "id": 4,
-    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
-    "author": "Ralph Waldo Emerson"
-  },
-  {
-    "id": 5,
-    "quote": "You miss 100% of the shots you don’t take.",
-    "author": "Wayne Gretzky"
-  },
-  {
-    "id": 6,
-    "quote": "The only thing we have to fear is fear itself.",
-    "author": "Franklin D. Roosevelt"
-  },
-  {
-    "id": 7,
-    "quote": "It does not matter how slowly you go as long as you do not stop.",
-    "author": "Confucius"
-  },
-  {
-    "id": 8,
-    "quote": "Life is what happens when you're busy making other plans.",
-    "author": "John Lennon"
-  },
-  {
-    "id": 9,
-    "quote": "The best way to predict the future is to create it.",
-    "author": "Abraham Lincoln"
-  },
-  {
-    "id": 10,
-    "quote": "You must be the change you wish to see in the world.",
-    "author": "Mahatma Gandhi"
-  }
-]
+{
+  "quoteList": [
+    {
+      "id": 1,
+      "quote": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+      "authorId": 1,
+      "authorName": "Marilyn Monroe",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "quote": "You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.",
+      "authorId": 2,
+      "authorName": "William W. Purkey",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "quote": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+      "authorId": 3,
+      "authorName": "Dr. Seuss",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "quote": "A friend is someone who knows all about you and still loves you.",
+      "authorId": 4,
+      "authorName": "Elbert Hubbard",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "quote": "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
+      "authorId": 5,
+      "authorName": "Martin Luther King Jr.,",
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "quote": "We accept the love we think we deserve.",
+      "authorId": 6,
+      "authorName": "Stephen Chbosky,",
+      "categoryId": 1
+    },
+    {
+      "id": 7,
+      "quote": "It is better to be hated for what you are than to be loved for what you are not.",
+      "authorId": 7,
+      "authorName": "Andre Gide,",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "quote": "As he read, I fell in love the way you fall asleep: slowly, and then all at once.",
+      "authorId": 8,
+      "authorName": "John Green,",
+      "categoryId": 1
+    },
+    {
+      "id": 9,
+      "quote": "It is not a lack of love, but a lack of friendship that makes unhappy marriages.",
+      "authorId": 9,
+      "authorName": "Friedrich Nietzsche",
+      "categoryId": 1
+    },
+    {
+      "id": 10,
+      "quote": "The opposite of love is not hate, it's indifference. The opposite of art is not ugliness, it's indifference. The opposite of faith is not heresy, it's indifference. And the opposite of life is not death, it's indifference.",
+      "authorId": 10,
+      "authorName": "Elie Wiesel",
+      "categoryId": 1
+    },
+    {
+      "id": 11,
+      "quote": "Love all, trust a few, Do wrong to none: be able for thine enemy Rather in power than use; and keep thy friend Under thy own life's key: be check'd for silence, But never tax'd for speech.",
+      "authorId": 11,
+      "authorName": "William Shakespeare,",
+      "categoryId": 1
+    },
+    {
+      "id": 12,
+      "quote": "Have you ever been in love? Horrible isn't it? It makes you so vulnerable. It opens your chest and it opens up your heart and it means that someone can get inside you and mess you up.",
+      "authorId": 12,
+      "authorName": "Neil Gaiman,",
+      "categoryId": 1
+    },
+    {
+      "id": 13,
+      "quote": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+      "authorId": 13,
+      "authorName": "Lao Tzu",
+      "categoryId": 1
+    },
+    {
+      "id": 14,
+      "quote": "There is never a time or place for true love. It happens accidentally, in a heartbeat, in a single flashing, throbbing moment.",
+      "authorId": 14,
+      "authorName": "Sarah Dessen,",
+      "categoryId": 1
+    },
+    {
+      "id": 15,
+      "quote": "Love is that condition in which the happiness of another person is essential to your own.",
+      "authorId": 15,
+      "authorName": "Robert A. Heinlein,",
+      "categoryId": 1
+    },
+    {
+      "id": 16,
+      "quote": "You love me. Real or not real?\" I tell him, \"Real.",
+      "authorId": 16,
+      "authorName": "Suzanne Collins,",
+      "categoryId": 1
+    },
+    {
+      "id": 17,
+      "quote": "Love is like the wind, you can't see it but you can feel it.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 18,
+      "quote": "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
+      "authorId": 18,
+      "authorName": "Jane Austen,",
+      "categoryId": 1
+    },
+    {
+      "id": 19,
+      "quote": "You don't love someone because they're perfect, you love them in spite of the fact that they're not.",
+      "authorId": 19,
+      "authorName": "Jodi Picoult,",
+      "categoryId": 1
+    },
+    {
+      "id": 20,
+      "quote": "Love never dies a natural death. It dies because we don't know how to replenish its source. It dies of blindness and errors and betrayals. It dies of illness and wounds; it dies of weariness, of witherings, of tarnishings.",
+      "authorId": 20,
+      "authorName": "Anais Nin",
+      "categoryId": 1
+    },
+    {
+      "id": 21,
+      "quote": "If I had a flower for every time I thought of you...I could walk through my garden forever.",
+      "authorId": 21,
+      "authorName": "Alfred Tennyson",
+      "categoryId": 1
+    },
+    {
+      "id": 22,
+      "quote": "If you can make a woman laugh, you can make her do anything.",
+      "authorId": 1,
+      "authorName": "Marilyn Monroe",
+      "categoryId": 1
+    },
+    {
+      "id": 23,
+      "quote": "We’re all a little weird. And life is a little weird. And when we find someone whose weirdness is compatible with ours, we join up with them and fall into mutually satisfying weirdness—and call it love—true love.",
+      "authorId": 22,
+      "authorName": "Robert Fulghum,",
+      "categoryId": 1
+    },
+    {
+      "id": 24,
+      "quote": "The real lover is the man who can thrill you by kissing your forehead or smiling into your eyes or just staring into space.",
+      "authorId": 1,
+      "authorName": "Marilyn Monroe",
+      "categoryId": 1
+    },
+    {
+      "id": 25,
+      "quote": "When someone loves you, the way they talk about you is different. You feel safe and comfortable.",
+      "authorId": 23,
+      "authorName": "Jess C. Scott,",
+      "categoryId": 1
+    },
+    {
+      "id": 26,
+      "quote": "Dumbledore watched her fly away, and as her silvery glow faded he turned back to Snape, and his eyes were full of tears. \"After all this time?\" \"Always,\" said Snape.",
+      "authorId": 24,
+      "authorName": "J.K. Rowling,",
+      "categoryId": 1
+    },
+    {
+      "id": 27,
+      "quote": "A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.",
+      "authorId": 18,
+      "authorName": "Jane Austen,",
+      "categoryId": 1
+    },
+    {
+      "id": 28,
+      "quote": "To die will be an awfully big adventure.",
+      "authorId": 25,
+      "authorName": "J.M. Barrie,",
+      "categoryId": 1
+    },
+    {
+      "id": 29,
+      "quote": "So it's not gonna be easy. It's going to be really hard; we're gonna have to work at this everyday, but I want to do that because I want you. I want all of you, forever, everyday. You and me... everyday.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 30,
+      "quote": "I love you as certain dark things are to be loved, in secret, between the shadow and the soul.",
+      "authorId": 26,
+      "authorName": "Pablo Neruda,",
+      "categoryId": 1
+    },
+    {
+      "id": 31,
+      "quote": "Tis better to have loved and lost Than never to have loved at all.",
+      "authorId": 27,
+      "authorName": "Alfred Lord Tennyson,",
+      "categoryId": 1
+    },
+    {
+      "id": 32,
+      "quote": "Just when you think it can't get any worse, it can. And just when you think it can't get any better, it can.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 33,
+      "quote": "The one you love and the one who loves you are never, ever the same person.",
+      "authorId": 28,
+      "authorName": "Chuck Palahniuk,",
+      "categoryId": 1
+    },
+    {
+      "id": 34,
+      "quote": "When we love, we always strive to become better than we are. When we strive to become better than we are, everything around us becomes better too.",
+      "authorId": 29,
+      "authorName": "Paulo Coelho,",
+      "categoryId": 1
+    },
+    {
+      "id": 35,
+      "quote": "One is loved because one is loved. No reason is needed for loving.",
+      "authorId": 29,
+      "authorName": "Paulo Coelho,",
+      "categoryId": 1
+    },
+    {
+      "id": 36,
+      "quote": "He's more myself than I am. Whatever our souls are made of, his and mine are the same.",
+      "authorId": 30,
+      "authorName": "Emily Brontë,",
+      "categoryId": 1
+    },
+    {
+      "id": 37,
+      "quote": "In vain have I struggled. It will not do. My feelings will not be repressed. You must allow me to tell you how ardently I admire and love you.",
+      "authorId": 18,
+      "authorName": "Jane Austen,",
+      "categoryId": 1
+    },
+    {
+      "id": 38,
+      "quote": "When I despair, I remember that all through history the way of truth and love have always won. There have been tyrants and murderers, and for a time, they can seem invincible, but in the end, they always fall. Think of it--always.",
+      "authorId": 31,
+      "authorName": "Mahatma Gandhi",
+      "categoryId": 1
+    },
+    {
+      "id": 39,
+      "quote": "Never love anyone who treats you like you're ordinary.",
+      "authorId": 32,
+      "authorName": "Oscar Wilde",
+      "categoryId": 1
+    },
+    {
+      "id": 40,
+      "quote": "Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage. Perhaps everything that frightens us is, in its deepest essence, something helpless that wants our love.",
+      "authorId": 33,
+      "authorName": "Rainer Maria Rilke,",
+      "categoryId": 1
+    },
+    {
+      "id": 41,
+      "quote": "I would die for you. But I won't live for you.",
+      "authorId": 6,
+      "authorName": "Stephen Chbosky,",
+      "categoryId": 1
+    },
+    {
+      "id": 42,
+      "quote": "We love the things we love for what they are.",
+      "authorId": 34,
+      "authorName": "Robert Frost",
+      "categoryId": 1
+    },
+    {
+      "id": 43,
+      "quote": "So, I love you because the entire universe conspired to help me find you.",
+      "authorId": 29,
+      "authorName": "Paulo Coelho,",
+      "categoryId": 1
+    },
+    {
+      "id": 44,
+      "quote": "Love is needing someone. Love is putting up with someone's bad qualities because they somehow complete you.",
+      "authorId": 14,
+      "authorName": "Sarah Dessen,",
+      "categoryId": 1
+    },
+    {
+      "id": 45,
+      "quote": "The only thing worse than a boy who hates you: a boy that loves you.",
+      "authorId": 35,
+      "authorName": "Markus Zusak,",
+      "categoryId": 1
+    },
+    {
+      "id": 46,
+      "quote": "You are my best friend as well as my lover, and I do not know which side of you I enjoy the most. I treasure each side, just as I have treasured our life together.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 47,
+      "quote": "You are, and always have been, my dream.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 48,
+      "quote": "I would always rather be happy than dignified.",
+      "authorId": 36,
+      "authorName": "Charlotte Brontë,",
+      "categoryId": 1
+    },
+    {
+      "id": 49,
+      "quote": "Every heart sings a song, incomplete, until another heart whispers back. Those who wish to sing always find a song. At the touch of a lover, everyone becomes a poet.",
+      "authorId": 37,
+      "authorName": "Plato",
+      "categoryId": 1
+    },
+    {
+      "id": 50,
+      "quote": "Doubt thou the stars are fire; Doubt that the sun doth move; Doubt truth to be a liar; But never doubt I love.",
+      "authorId": 11,
+      "authorName": "William Shakespeare,",
+      "categoryId": 1
+    },
+    {
+      "id": 51,
+      "quote": "Where there is love there is life.",
+      "authorId": 31,
+      "authorName": "Mahatma Gandhi",
+      "categoryId": 1
+    },
+    {
+      "id": 52,
+      "quote": "Some women choose to follow men, and some women choose to follow their dreams. If you're wondering which way to go, remember that your career will never wake up and tell you that it doesn't love you anymore.",
+      "authorId": 38,
+      "authorName": "Lady Gaga",
+      "categoryId": 1
+    },
+    {
+      "id": 53,
+      "quote": "The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds. And that's what you've given me. That's what I'd hoped to give you forever",
+      "authorId": 39,
+      "authorName": "Nicholas Sparks",
+      "categoryId": 1
+    },
+    {
+      "id": 54,
+      "quote": "Nobody has ever measured, not even poets, how much the heart can hold.",
+      "authorId": 40,
+      "authorName": "Zelda Fitzgerald",
+      "categoryId": 1
+    },
+    {
+      "id": 55,
+      "quote": "Out beyond ideas of wrongdoing and rightdoing there is a field. I'll meet you there. When the soul lies down in that grass the world is too full to talk about.",
+      "authorId": 41,
+      "authorName": "Rumi",
+      "categoryId": 1
+    },
+    {
+      "id": 56,
+      "quote": "Once upon a time there was a boy who loved a girl, and her laughter was a question he wanted to spend his whole life answering.",
+      "authorId": 42,
+      "authorName": "Nicole Krauss,",
+      "categoryId": 1
+    },
+    {
+      "id": 57,
+      "quote": "We loved with a love that was more than love.",
+      "authorId": 43,
+      "authorName": "Edgar Allen Poe",
+      "categoryId": 1
+    },
+    {
+      "id": 58,
+      "quote": "Eleanor was right. She never looked nice. She looked like art, and art wasn't supposed to look nice; it was supposed to make you feel something.",
+      "authorId": 44,
+      "authorName": "Rainbow Rowell,",
+      "categoryId": 1
+    },
+    {
+      "id": 59,
+      "quote": "And so the lion fell in love with the lamb…\" he murmured. I looked away, hiding my eyes as I thrilled to the word. \"What a stupid lamb,\" I sighed. \"What a sick, masochistic lion.",
+      "authorId": 45,
+      "authorName": "Stephenie Meyer,",
+      "categoryId": 1
+    },
+    {
+      "id": 60,
+      "quote": "This is a good sign, having a broken heart. It means we have tried for something.",
+      "authorId": 46,
+      "authorName": "Elizabeth Gilbert,",
+      "categoryId": 1
+    },
+    {
+      "id": 61,
+      "quote": "The more I know of the world, the more I am convinced that I shall never see a man whom I can really love. I require so much!",
+      "authorId": 18,
+      "authorName": "Jane Austen,",
+      "categoryId": 1
+    },
+    {
+      "id": 62,
+      "quote": "A guy and a girl can be just friends, but at one point or another, they will fall for each other...Maybe temporarily, maybe at the wrong time, maybe too late, or maybe forever",
+      "authorId": 47,
+      "authorName": "Dave Matthews Band",
+      "categoryId": 1
+    },
+    {
+      "id": 63,
+      "quote": "They say a person needs just three things to be truly happy in this world: someone to love, something to do, and something to hope for.",
+      "authorId": 48,
+      "authorName": "Tom Bodett",
+      "categoryId": 1
+    },
+    {
+      "id": 64,
+      "quote": "I have decided to stick to love...Hate is too great a burden to bear.",
+      "authorId": 5,
+      "authorName": "Martin Luther King Jr.,",
+      "categoryId": 1
+    },
+    {
+      "id": 65,
+      "quote": "The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.",
+      "authorId": 49,
+      "authorName": "J.R.R. Tolkien,",
+      "categoryId": 1
+    },
+    {
+      "id": 66,
+      "quote": "What's meant to be will always find a way",
+      "authorId": 50,
+      "authorName": "Trisha Yearwood",
+      "categoryId": 1
+    },
+    {
+      "id": 67,
+      "quote": "Hearts are made to be broken.",
+      "authorId": 51,
+      "authorName": "Oscar Wilde,",
+      "categoryId": 1
+    },
+    {
+      "id": 68,
+      "quote": "Be the reason someone smiles. Be the reason someone feels loved and believes in the goodness in people.",
+      "authorId": 52,
+      "authorName": "Roy T. Bennett,",
+      "categoryId": 1
+    },
+    {
+      "id": 69,
+      "quote": "Two people in love, alone, isolated from the world, that's beautiful.",
+      "authorId": 53,
+      "authorName": "Milan Kundera",
+      "categoryId": 1
+    },
+    {
+      "id": 70,
+      "quote": "If all else perished, and he remained, I should still continue to be; and if all else remained, and he were annihilated, the universe would turn to a mighty stranger.",
+      "authorId": 54,
+      "authorName": "Emily Jane Brontë ,",
+      "categoryId": 1
+    },
+    {
+      "id": 71,
+      "quote": "This above all: to thine own self be true, And it must follow, as the night the day, Thou canst not then be false to any man.",
+      "authorId": 11,
+      "authorName": "William Shakespeare,",
+      "categoryId": 1
+    },
+    {
+      "id": 72,
+      "quote": "If you remember me, then I don't care if everyone else forgets.",
+      "authorId": 55,
+      "authorName": "Haruki Murakami,",
+      "categoryId": 1
+    },
+    {
+      "id": 73,
+      "quote": "For the two of us, home isn't a place. It is a person. And we are finally home.",
+      "authorId": 56,
+      "authorName": "Stephanie Perkins,",
+      "categoryId": 1
+    },
+    {
+      "id": 74,
+      "quote": "The very essence of romance is uncertainty.",
+      "authorId": 51,
+      "authorName": "Oscar Wilde,",
+      "categoryId": 1
+    },
+    {
+      "id": 75,
+      "quote": "There is always some madness in love. But there is also always some reason in madness.",
+      "authorId": 9,
+      "authorName": "Friedrich Nietzsche",
+      "categoryId": 1
+    },
+    {
+      "id": 76,
+      "quote": "Love is so short, forgetting is so long.",
+      "authorId": 26,
+      "authorName": "Pablo Neruda,",
+      "categoryId": 1
+    },
+    {
+      "id": 77,
+      "quote": "They didn’t agree on much. In fact, they didn’t agree on anything. They fought all the time and challenged each other ever day. But despite their differences, they had one important thing in common. They were crazy about each other.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 78,
+      "quote": "I cannot fix on the hour, or the spot, or the look or the words, which laid the foundation. It is too long ago. I was in the middle before I knew that I had begun.",
+      "authorId": 18,
+      "authorName": "Jane Austen,",
+      "categoryId": 1
+    },
+    {
+      "id": 79,
+      "quote": "Love doesn't just sit there, like a stone, it has to be made, like bread; remade all the time, made new.",
+      "authorId": 57,
+      "authorName": "Ursula K. Le Guin,",
+      "categoryId": 1
+    },
+    {
+      "id": 80,
+      "quote": "If you love somebody, let them go, for if they return, they were always yours. If they don't, they never were.",
+      "authorId": 58,
+      "authorName": "Kahlil Gibran",
+      "categoryId": 1
+    },
+    {
+      "id": 81,
+      "quote": "What I need is the dandelion in the spring. The bright yellow that means rebirth instead of destruction. The promise that life can go on, no matter how bad our losses. That it can be good again.",
+      "authorId": 16,
+      "authorName": "Suzanne Collins,",
+      "categoryId": 1
+    },
+    {
+      "id": 82,
+      "quote": "Man may have discovered fire, but women discovered how to play with it.",
+      "authorId": 59,
+      "authorName": "Candace Bushnell,",
+      "categoryId": 1
+    },
+    {
+      "id": 83,
+      "quote": "I don't trust people who don't love themselves and tell me, 'I love you.' ... There is an African saying which is: Be careful when a naked person offers you a shirt.",
+      "authorId": 60,
+      "authorName": "Maya Angelou",
+      "categoryId": 1
+    },
+    {
+      "id": 84,
+      "quote": "Love does not consist of gazing at each other, but in looking outward together in the same direction.",
+      "authorId": 61,
+      "authorName": "Antoine de Saint-Exupéry,",
+      "categoryId": 1
+    },
+    {
+      "id": 85,
+      "quote": "What I want is to be needed. What I need is to be indispensable to somebody. Who I need is somebody that will eat up all my free time, my ego, my attention. Somebody addicted to me. A mutual addiction.",
+      "authorId": 28,
+      "authorName": "Chuck Palahniuk,",
+      "categoryId": 1
+    },
+    {
+      "id": 86,
+      "quote": "It was love at first sight, at last sight, at ever and ever sight.",
+      "authorId": 62,
+      "authorName": "Vladimir Nabokov,",
+      "categoryId": 1
+    },
+    {
+      "id": 87,
+      "quote": "My daddy said, that the first time you fall in love, it changes you forever and no matter how hard you try, that feeling just never goes away.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 88,
+      "quote": "And, in the end The love you take is equal to the love you make.",
+      "authorId": 63,
+      "authorName": "Paul McCartney,",
+      "categoryId": 1
+    },
+    {
+      "id": 89,
+      "quote": "More smiling, less worrying. More compassion, less judgment. More blessed, less stressed. More love, less hate.",
+      "authorId": 52,
+      "authorName": "Roy T. Bennett,",
+      "categoryId": 1
+    },
+    {
+      "id": 90,
+      "quote": "And now these three remain: faith, hope and love. But the greatest of these is love.",
+      "authorId": 64,
+      "authorName": "Anonymous,",
+      "categoryId": 1
+    },
+    {
+      "id": 91,
+      "quote": "Love is a fire. But whether it is going to warm your hearth or burn down your house, you can never tell.",
+      "authorId": 65,
+      "authorName": "Joan Crawford",
+      "categoryId": 1
+    },
+    {
+      "id": 92,
+      "quote": "It is good to love many things, for therein lies the true strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is well done.",
+      "authorId": 66,
+      "authorName": "Vincent Van Gogh",
+      "categoryId": 1
+    },
+    {
+      "id": 93,
+      "quote": "You are the answer to every prayer I've offered. You are a song, a dream, a whisper, and I don't know how I could have lived without you for as long as I have.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 94,
+      "quote": "I think... if it is true that there are as many minds as there are heads, then there are as many kinds of love as there are hearts.",
+      "authorId": 67,
+      "authorName": "Leo Tolstoy,",
+      "categoryId": 1
+    },
+    {
+      "id": 95,
+      "quote": "Be careful of love. It'll twist your brain around and leave you thinking up is down and right is wrong.",
+      "authorId": 68,
+      "authorName": "Rick Riordan,",
+      "categoryId": 1
+    },
+    {
+      "id": 96,
+      "quote": "I can feel Peeta press his forehead into my temple and he asks, 'So now that you've got me, what are you going to do with me?' I turn into him. 'Put you somewhere you can't get hurt.",
+      "authorId": 16,
+      "authorName": "Suzanne Collins,",
+      "categoryId": 1
+    },
+    {
+      "id": 97,
+      "quote": "The most painful thing is losing yourself in the process of loving someone too much, and forgetting that you are special too.",
+      "authorId": 69,
+      "authorName": "Ernest Hemingway,",
+      "categoryId": 1
+    },
+    {
+      "id": 98,
+      "quote": "Love does not begin and end the way we seem to think it does. Love is a battle, love is a war; love is a growing up.",
+      "authorId": 70,
+      "authorName": "James A. Baldwin",
+      "categoryId": 1
+    },
+    {
+      "id": 99,
+      "quote": "What is hell? I maintain that it is the suffering of being unable to love.",
+      "authorId": 71,
+      "authorName": "Fyodor Dostoevsky,",
+      "categoryId": 1
+    },
+    {
+      "id": 100,
+      "quote": "When love is not madness it is not love.",
+      "authorId": 72,
+      "authorName": "Pedro Calderon de la Barca",
+      "categoryId": 1
+    },
+    {
+      "id": 101,
+      "quote": "He is half of my soul, as the poets say.",
+      "authorId": 73,
+      "authorName": "Madeline Miller,",
+      "categoryId": 1
+    },
+    {
+      "id": 102,
+      "quote": "I loved her against reason, against promise, against peace, against hope, against happiness, against all discouragement that could be.",
+      "authorId": 74,
+      "authorName": "Charles Dickens,",
+      "categoryId": 1
+    },
+    {
+      "id": 103,
+      "quote": "All I ever wanted was to reach out and touch another human being not just with my hands but with my heart.",
+      "authorId": 75,
+      "authorName": "Tahereh Mafi,",
+      "categoryId": 1
+    },
+    {
+      "id": 104,
+      "quote": "It is the time you have wasted for your rose that makes your rose so important.",
+      "authorId": 61,
+      "authorName": "Antoine de Saint-Exupéry,",
+      "categoryId": 1
+    },
+    {
+      "id": 105,
+      "quote": "In the darkness, two shadows, reaching through the hopeless, heavy dusk. Their hands meet, and light spills in a flood like a hundred golden urns pouring out of the sun.",
+      "authorId": 73,
+      "authorName": "Madeline Miller,",
+      "categoryId": 1
+    },
+    {
+      "id": 106,
+      "quote": "If you like her, if she makes you happy, and if you feel like you know her---then don't let her go.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 107,
+      "quote": "True love is rare, and it's the only thing that gives life real meaning.",
+      "authorId": 17,
+      "authorName": "Nicholas Sparks,",
+      "categoryId": 1
+    },
+    {
+      "id": 108,
+      "quote": "I love you more than there are stars in the sky and fish in the sea.",
+      "authorId": 39,
+      "authorName": "Nicholas Sparks",
+      "categoryId": 1
+    },
+    {
+      "id": 109,
+      "quote": "Declarations of love amuse me. Especially when unrequited.",
+      "authorId": 76,
+      "authorName": "Cassandra Clare,",
+      "categoryId": 1
+    },
+    {
+      "id": 110,
+      "quote": "A woman's heart should be so hidden in God that a man has to seek Him just to find her.",
+      "authorId": 77,
+      "authorName": "Max Lucado",
+      "categoryId": 1
+    }
+  ]
+}
